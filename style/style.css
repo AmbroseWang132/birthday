@@ -40,6 +40,10 @@ body {
 
 
 button {
+  z-index: 999; 
+  position: fixed; 
+  top: 20px;
+  left: 20px;
   background-color: #21a1f1;
   color: #fff;
   border: none;
@@ -52,8 +56,7 @@ button {
   margin: 20px auto;
   display: inline-block;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  z-index: 999; 
-  position: relative; 
+  
 }
 
 button:hover {
