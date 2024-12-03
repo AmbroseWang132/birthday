@@ -41,9 +41,9 @@ body {
 
 button {
   z-index: 999; 
-  position: fixed; 
-  top: 20px;
-  left: 20px;
+  position: relative; 
+  margin: 20px auto;
+  display: block;
   background-color: #21a1f1;
   color: #fff;
   border: none;
