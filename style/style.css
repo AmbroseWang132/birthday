@@ -52,6 +52,8 @@ button {
   margin: 20px auto;
   display: inline-block;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  z-index: 999; 
+  position: relative; 
 }
 
 button:hover {
