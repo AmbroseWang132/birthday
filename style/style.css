@@ -7,20 +7,6 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-button {
-  background-color: #ff69b4;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #ff85c2;
-}
-
 
 .container {
   height: 100vh;
@@ -50,6 +36,31 @@ button:hover {
   left: 0;
   right: 0;
   top: 20vh;
+}
+
+
+button {
+  background-color: #21a1f1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px auto;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d8ad6;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #1676b2;
 }
 
 .one {
