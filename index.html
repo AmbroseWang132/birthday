@@ -132,7 +132,9 @@
     // JavaScript function to play the audio
     function playSound() {
       const audio = document.getElementById('birthday-audio');
-      audio.play();
+    audio.play().catch((error) => {
+      console.error("Error playing audio:", error);
+    });
     }
   </script>
   <audio id="birthday-audio">
